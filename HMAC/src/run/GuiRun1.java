@@ -1,6 +1,6 @@
 package run;
 
-public class GuiRun {
+public class GuiRun1 {
 
 
 	public static void main(String[] args) {

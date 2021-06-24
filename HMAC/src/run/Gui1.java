@@ -1,5 +1,7 @@
 package run;
 
+
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.SystemColor;
@@ -16,7 +18,7 @@ import javax.swing.JTextField;
 import hmac.Hmac;
 import hmac.SecretKey1;
 
-public class Gui {
+public class Gui1 {
 	private SecretKey key;
 	private byte[] hmacSignature1;
 	private byte[] hmacSignature2;
@@ -44,7 +46,7 @@ public class Gui {
 	private JLabel lblText_1;
 	private JLabel b2;
 
-	public Gui() {
+	public Gui1() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 828, 669);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
